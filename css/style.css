@@ -2,6 +2,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+/*header style*/
 header {
     background-image: url('../images/banner/banner1.png');
     background-size: cover;
@@ -15,6 +17,9 @@ header {
     padding-left: 700px;
     padding-right: 200px;
 }
+.headercap1 h1{
+    font-size: 45px;
+}
 
 .headercap1 p {
     margin-top: 15px;
@@ -23,14 +28,16 @@ header {
 }
 
 .headerbtn {
-    padding: 20px 35px;
-    background-color: orange;
+    padding: 2px 30px;
+    background-color: orangered;
     border-style: none;
     border-radius: 5px;
     color: white;
     font-size: 14px;
     margin-top: 15px;
 }
+
+/*main content style*/
 
 main {
     margin-left: 10%;
@@ -67,6 +74,10 @@ main {
     
 }
 
+.planheader {
+    margin-top: 100px;
+}
+
 .plans {
     display: flex;
     justify-content: center;
@@ -74,6 +85,10 @@ main {
 
 .plan1 {
     padding: 65px;
+}
+.plan1 p{
+    color: grey;
+    font-size: 18px;
 }
 
 
@@ -106,6 +121,8 @@ main {
     padding-top: 40px;
     color: white;
 }
+
+/*footer style*/
 
 footer {
     display: flex;
