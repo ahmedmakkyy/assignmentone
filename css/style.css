@@ -119,6 +119,10 @@ footer {
 .footercont1 {
     margin-right: 500px;
 }
+.footercont1 img {
+    margin-top: 5px;
+    margin-right: 15px;
+}
 .footercont2 input {
     height: 40px;
     width: 200px;
