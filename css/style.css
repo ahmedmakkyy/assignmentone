@@ -1,0 +1,137 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-image: url("images/banner/banner1.png");
+    background-size: cover;
+    height: 700px;
+    
+
+}
+.headercap1 {
+    text-align: end;
+    padding-top: 200px;
+    padding-left: 700px;
+    padding-right: 200px;
+}
+
+.headercap1 p {
+    margin-top: 15px;
+    font-size: 12px;
+    color: gray;
+}
+
+.headerbtn {
+    padding: 20px 35px;
+    background-color: orange;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.cont {
+    display: flex;
+    margin-top: 80px;
+    
+}
+
+.leftcont1 img {
+    height: 600px;
+    width: 500px;
+
+}
+
+.rightcont1 {
+    padding-top: 250px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+.rightcont1 li {
+    list-style-type: none;
+}
+
+.rightcont1 li::before {
+    content: '\2713      ';
+    color: green;
+    
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+}
+
+.plan1 {
+    padding: 65px;
+}
+
+
+
+.bodyimg {
+    border-radius: 6px;
+    height: 250px;
+    text-align: left;
+    background-image: linear-gradient(to right,
+        rgba(240, 144, 54, 0.896),
+        rgba(255, 255, 255, 0)
+    ),url('images/watch.png');
+}
+
+
+
+.bodyimg button {
+    height: 55px;
+    width: 130px;
+    margin-left: 10%;
+    color: orangered;
+    background-color: white;
+    border-style: none;
+    border-radius: 6px;
+}
+
+.bodyimg h1 {
+    margin-left: 10%;
+    margin-right: 50%;
+    padding-top: 40px;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(6, 6, 90);
+    color: white;
+    padding: 50px 140px;
+    margin-top: 80px;
+}
+
+.footercont1 {
+    margin-right: 500px;
+}
+.footercont2 input {
+    height: 40px;
+    width: 200px;
+    background-color: rgb(6, 6, 90);
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+.footercont2 button {
+    height: 55px;
+    width: 130px;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    color: orangered;
+}
